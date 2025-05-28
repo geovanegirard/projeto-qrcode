@@ -15,28 +15,29 @@ Este é um projeto de utilitário de linha de comando desenvolvido em **Node.js*
 
 ## 📁 Estrutura de Pastas
 
+```
 projeto-qrcode/
 ├── node_modules/
 ├── src/
-│ ├── prompts-schema/
-│ │ ├── prompt-schema-main.js
-│ │ └── prompt-schema-qrcode.js
-│ ├── services/
-│ │ ├── password/
-│ │ │ └── utils/
-│ │ │ ├── permitted-characters.js
-│ │ │ ├── create.js
-│ │ │ └── handle.js
-│ │ └── qr-code/
-│ │ ├── creat.js
-│ │ ├── handle.js
-│ │ └── index.js
-│ └── index.js
+│   ├── prompts-schema/
+│   │   ├── prompt-schema-main.js
+│   │   └── prompt-schema-qrcode.js
+│   ├── services/
+│   │   ├── password/
+│   │   │   └── utils/
+│   │   │       ├── permitted-characters.js
+│   │   │       ├── create.js
+│   │   │       └── handle.js
+│   │   └── qr-code/
+│   │       ├── creat.js
+│   │       ├── handle.js
+│   │       └── index.js
+│   └── index.js
 ├── .env
 ├── .gitignore
 ├── package.json
 ├── package-lock.json
-
+```
 ## 📦 Dependências
 
 - [`chalk`](https://www.npmjs.com/package/chalk) – Cores e estilos no terminal
