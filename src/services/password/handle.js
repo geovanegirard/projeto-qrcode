@@ -12,6 +12,7 @@ async function handle() {
         password += characters[index];
     }
     return password;
+    
 }
 
 export default handle;
